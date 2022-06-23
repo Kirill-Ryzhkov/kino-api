@@ -1,0 +1,54 @@
+Search.appendIndex(
+    [
+                {
+            "fqsen": "\\App\\Http\\Controllers\\MovieController",
+            "name": "MovieController",
+            "summary": "",
+            "url": "classes/App-Http-Controllers-MovieController.html"
+        },                {
+            "fqsen": "\\App\\Http\\Controllers\\MovieController\u003A\u003AgetLimited\u0028\u0029",
+            "name": "getLimited",
+            "summary": "",
+            "url": "classes/App-Http-Controllers-MovieController.html#method_getLimited"
+        },                {
+            "fqsen": "\\App\\Http\\Controllers\\MovieController\u003A\u003AgetYear\u0028\u0029",
+            "name": "getYear",
+            "summary": "",
+            "url": "classes/App-Http-Controllers-MovieController.html#method_getYear"
+        },                {
+            "fqsen": "\\App\\Http\\Controllers\\MovieController\u003A\u003AgetName\u0028\u0029",
+            "name": "getName",
+            "summary": "",
+            "url": "classes/App-Http-Controllers-MovieController.html#method_getName"
+        },                {
+            "fqsen": "\\App\\Http\\Controllers\\MovieController\u003A\u003AgetGenre\u0028\u0029",
+            "name": "getGenre",
+            "summary": "",
+            "url": "classes/App-Http-Controllers-MovieController.html#method_getGenre"
+        },                {
+            "fqsen": "\\App\\Http\\Controllers\\MovieController\u003A\u003AgetLength\u0028\u0029",
+            "name": "getLength",
+            "summary": "",
+            "url": "classes/App-Http-Controllers-MovieController.html#method_getLength"
+        },                {
+            "fqsen": "\\",
+            "name": "\\",
+            "summary": "",
+            "url": "namespaces/default.html"
+        },                {
+            "fqsen": "\\App\\Http\\Controllers",
+            "name": "Controllers",
+            "summary": "",
+            "url": "namespaces/app-http-controllers.html"
+        },                {
+            "fqsen": "\\App\\Http",
+            "name": "Http",
+            "summary": "",
+            "url": "namespaces/app-http.html"
+        },                {
+            "fqsen": "\\App",
+            "name": "App",
+            "summary": "",
+            "url": "namespaces/app.html"
+        }            ]
+);
