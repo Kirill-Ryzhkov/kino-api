@@ -30,7 +30,7 @@
     3. Нажимаем Send
     4. В ответе копируем access_token 
     5. Создаем новый GET запрос к нашему api например localhost:8000/api/movies/all
-    6. На вкладке Authorization->Type->Bearer Token, Token - Bearer access_token (пункт 2.4)
+    6. На вкладке Authorization->Type->Bearer Token, Token - access_token (пункт 2.4)
     7. Нажимаем Send
 
 Остальные данные по доступным методам api можно получить по адресу localhost:8000/docs/api/index.html
