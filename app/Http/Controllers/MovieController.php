@@ -13,14 +13,14 @@ class MovieController extends Controller
      * @api v1
      * Метод нужен для получения всех фильмов или ограниченное их кол-во, с выбором сортировки и направлением сортировки.
      * @author Kirill Ryzhkov <slusc10a@gmail.com>
-     * @param int       $limit      Не обязательный параметр, по умолчанию передается 0 (вывод всех запесей). Передавая его можно ограничить кол-во выводимых строк(фильмов)
+     * @param int       $limit      Не обязательный параметр, по умолчанию передается -1 (вывод всех запесей). Передавая его можно ограничить кол-во выводимых строк(фильмов)
      * @param string    $order      Не обязательный параметр, по умолчанию передается "nameOriginal". Передавая его можно сортировать вывод по тому полю, который нам нужен. Допустимые поля - nameRu, year, age, filmLength, ratingImdb
      * @param string    $dir        Не обязательный параметр, по умолчанию передается "asc". Передавая его можно выводить в различных направлениях ("asc" - а-я, 1-10; "desc" - я-а, 10-1)
      * @return array[]
      * @example localhost:8000/api/movies/all
      * @example localhost:8000/api/movies/all/10/nameRu/desc
      */
-    public function getLimited($limit = 0, $order = "nameOriginal", $dir = "asc"){
+    public function getLimited($limit = -1, $order = "nameOriginal", $dir = "asc"){
         $limitMovies = DB::table('movies')
                                 -> orderBy($order, $dir)
                                 -> limit($limit)
